@@ -1,0 +1,17 @@
+[[main]]
+  identifier = "acerca-de"
+  name = "Acerca de"
+  url = "acerca-de"
+  weight = 1
+
+[[main]]
+  identifier = "archivo"
+  name = "Archivo"
+  url = "archivo"
+  weight = 2
+
+[[main]]
+  identifier = "aprende-mas"
+  name = "Aprende más"
+  url = "aprende-mas"
+  weight = 3
