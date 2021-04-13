@@ -13,7 +13,7 @@ authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Lee
 
 Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.
 
-La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero Anon y un servidor St4rleon. Al mismo tiempo que depósitamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier individuo que sea lo suficintemente curioso como para leer sobre tecnología y hacking.
+La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero NoSoyHacker404 y un servidor St4rleon. Al mismo tiempo que depósitamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier individuo que sea lo suficintemente curioso como para leer sobre tecnología y hacking.
 
 Este es nuestro pequeño bunker desarrollado desde el desierto para aportar nuestro granito de arena a la comunidad de Internet que siempre nos ha ayudado en nuestro desarrollo de habilidades.
 
