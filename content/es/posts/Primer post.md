@@ -9,6 +9,10 @@ author: "St4rleon" # author name
 authorImage: "" # image path in the static folder
 authorImageUrl: "https://i.postimg.cc/8CdHLVjW/mugen.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
+socialOptions: # override params.toml file socialOptions
+  email: "geek_pwn@protonmail.com"
+  twitter: "https://twitter.com/st4rleon"
+  github: "https://github.com/st4rleon"
 ---
 
 Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.
