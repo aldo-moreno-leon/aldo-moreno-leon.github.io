@@ -12,7 +12,6 @@ authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Lee
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/st4rleon"
   github: "https://github.com/st4rleon"
-  email: "geek_pwn@protonmail.com"
 ---
 
 Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.

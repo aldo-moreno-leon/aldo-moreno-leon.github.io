@@ -157,11 +157,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:desert_bunker@protonmail.com"
+  email = ""
   phone = ""
-  facebook = ""
+  facebook = "https://facebook.com/desert.bunker"
   twitter = "https://twitter.com/desertbunker"
-  github = "https://github.com/desertbunker"
+  github = ""
   stack-overflow = ""
   instagram = ""
   google-plus = ""
