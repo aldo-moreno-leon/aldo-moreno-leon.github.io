@@ -10,7 +10,7 @@ authorImage: "" # image path in the static folder
 authorImageUrl: "https://i.postimg.cc/8CdHLVjW/mugen.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
-  twitter: "https://twitter.com/im-a-c0wb0y"
+  twitter: "https://twitter.com/_c0wb0y_"
   github: "https://github.com/_c0wb0y_"
 ---
 
