@@ -5,18 +5,18 @@ description: Hello World!
 draft: false
 categories:
 - Lectura
-author: "St4rleon" # author name
+author: "C0wb0y" # author name
 authorImage: "" # image path in the static folder
 authorImageUrl: "https://i.postimg.cc/8CdHLVjW/mugen.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
-  twitter: "https://twitter.com/st4rleon"
-  github: "https://github.com/st4rleon"
+  twitter: "https://twitter.com/im-a-c0wb0y"
+  github: "https://github.com/_c0wb0y_"
 ---
 
 Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.
 
-La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero NoSoyHacker404 y un servidor St4rleon. Al mismo tiempo que depósitamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier individuo que sea lo suficientemente curioso como para leer sobre tecnología y hacking.
+La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero NoSoyHacker404 y un servidor C0wb0y. Al mismo tiempo que depósitamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier individuo que sea lo suficientemente curioso como para leer sobre tecnología y hacking.
 
 Este es nuestro pequeño bunker desarrollado desde el desierto para aportar nuestro granito de arena a la comunidad de Internet que siempre nos ha ayudado en nuestro desarrollo de habilidades.
 
