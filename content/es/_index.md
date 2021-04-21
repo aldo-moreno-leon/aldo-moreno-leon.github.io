@@ -8,7 +8,7 @@ header:
       - typeString: Un espacio para aprender sobre tecnología..
       - pauseFor: 1500
       - deleteChars: 12
-      - typeString: <strong>hacking</strong>
+      - typeString: <strong>hacking.</strong>
       - pauseFor: 2500
     options:
       loop: true
@@ -16,7 +16,7 @@ header:
     height: 190
     paddingX: 50
     align: center
-    fontSize: 44
+    fontSize: 40
     fontColor: green
     
   - type: text

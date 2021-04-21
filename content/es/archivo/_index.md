@@ -6,4 +6,4 @@ description: Seccion de archivo del blog
 titleWrap: wrap
 ---
 
-En esta sección se enlistan todas las entradas del blog de manera ordenada mediante la fecha de publicación.
+En esta sección se enlistan todas las entradas del blog de manera ordenada, mediante la fecha de publicación.

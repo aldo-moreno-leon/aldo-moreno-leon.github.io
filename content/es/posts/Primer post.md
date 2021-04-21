@@ -3,7 +3,7 @@ title: "Desert Bunker"
 date: 2021-04-12T06:40:51+09:00
 description: Hello World! 
 draft: false
-tags:
+categories:
 - Lectura
 author: "St4rleon" # author name
 authorImage: "" # image path in the static folder
@@ -19,6 +19,8 @@ Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se uti
 La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero NoSoyHacker404 y un servidor St4rleon. Al mismo tiempo que depósitamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier individuo que sea lo suficientemente curioso como para leer sobre tecnología y hacking.
 
 Este es nuestro pequeño bunker desarrollado desde el desierto para aportar nuestro granito de arena a la comunidad de Internet que siempre nos ha ayudado en nuestro desarrollo de habilidades.
+
+Sin más que decir, !Bienvenidos!
 
 {{< alert theme="info" dir="ltr" >}}
 "No se trata de levantarse, sino de tropezar… tropezar en la dirección adecuada. Ese es el verdadero camino para avanzar". – Mr. Robot
