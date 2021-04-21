@@ -20,7 +20,7 @@ La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos
 
 Este es nuestro pequeño bunker desarrollado desde el desierto para aportar nuestro granito de arena a la comunidad de Internet que siempre nos ha ayudado en nuestro desarrollo de habilidades.
 
-Sin más que decir, !Bienvenidos!
+Sin más que decir, ¡Bienvenidos!
 
 {{< alert theme="info" dir="ltr" >}}
 "No se trata de levantarse, sino de tropezar… tropezar en la dirección adecuada. Ese es el verdadero camino para avanzar". – Mr. Robot
