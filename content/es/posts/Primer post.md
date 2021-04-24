@@ -1,6 +1,6 @@
 ---
 title: "Desert Bunker"
-date: 2021-04-12T06:40:51+09:00
+date: 2021-04-12
 description: Hello World! 
 draft: false
 categories:

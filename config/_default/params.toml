@@ -10,7 +10,7 @@ themecolor = ""
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
 notAllowedTypesInHome = ["about"]
 notAllowedTypesInHomeSidebar = ["about", "archive"]
-notAllowedTypesInArchive = ["about"]
+notAllowedTypesInArchive = ["about", "aprende-mas"]
 notAllowedTypesInHomeFeed = ["about", "archive"]
 
 viewportSize = "normal" # widest, wider, wide, normal, narrow
@@ -56,12 +56,12 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "Space Lions"
-#email = "space_lions@protonmail.com"
-whoami = "Cyber-Security Enthusiasts"
+#myname = ""
+#email = ""
+#whoami = ""
 bioImageUrl = "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1508857756593-8QE1SHGI2SBQLCEA5E2Q/couple-has-space-lion-from-cowboy-bebop-performed-at-their-wedding-social.jpg?format=1500w&content-type=image%2Fjpeg"
 useGravatar = false
-location = "In the desert, you can remember your name.."
+location = "In the desert, you can remember your name..."
 #organization = "Hugo"
 #link = "https://zzossig.io/ko"
 
