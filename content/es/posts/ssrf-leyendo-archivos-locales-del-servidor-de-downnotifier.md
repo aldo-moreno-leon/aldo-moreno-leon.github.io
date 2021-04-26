@@ -70,5 +70,6 @@ Quiero agradecer al soporte de DownNotifier porque ellos fueron muy amables en n
 
 - Write-up: [https://medium.com/@elberandre/1-000-ssrf-in-slack-7737935d3884](https://medium.com/@elberandre/1-000-ssrf-in-slack-7737935d3884)
 
-
-> "No temo a los ordenadores; lo que temo es quedarme sin ellos". – Isaac Asimov
+{{< alert theme="info" dir="ltr" >}}
+"No temo a los ordenadores; lo que temo es quedarme sin ellos". – Isaac Asimov
+{{< /alert >}}
