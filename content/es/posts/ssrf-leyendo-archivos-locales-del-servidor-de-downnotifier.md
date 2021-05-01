@@ -6,7 +6,7 @@ draft: false
 categories:
 - Web Hacking
 tags:
-- bug bounty
+- bug-bounty
 - SSRF
 author: "C0wb0y" # author name
 authorImageUrl: "https://i.postimg.cc/8CdHLVjW/mugen.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
