@@ -9,7 +9,7 @@ categories:
 tags:
 - phishing
 author: "C0wb0y" # author name
-authorImageUrl: "https://i.postimg.cc/8CdHLVjW/mugen.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
+authorImageUrl: "https://i.postimg.cc/L6kw16fM/justice.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/_c0wb0y_"
