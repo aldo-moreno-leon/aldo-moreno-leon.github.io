@@ -11,7 +11,7 @@ authorImageUrl: "https://i.postimg.cc/L6kw16fM/justice.jpg" # your image url. We
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/_c0wb0y_"
-  github: "https://github.com/im-a-c0wb0y"
+  github: "https://github.com/aldo-moreno-leon"
 ---
 
 Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.

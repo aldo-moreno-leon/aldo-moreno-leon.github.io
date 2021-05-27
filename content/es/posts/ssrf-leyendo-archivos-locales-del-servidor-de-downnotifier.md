@@ -13,7 +13,7 @@ authorImageUrl: "https://i.postimg.cc/L6kw16fM/justice.jpg" # your image url. We
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/_c0wb0y_"
-  github: "https://github.com/im-a-c0wb0y"
+  github: "https://github.com/aldo-moreno-leon"
 ---
 
 Hace un tiempo escribí un [write-up](https://www.openbugbounty.org/blog/leonmugen/ssrf-reading-local-files-from-downnotifier-server/) acerca de como fui capaz de leer archivos locales provenientes del servidor de un servicio web llamado [Downnotifier](https://www.downnotifier.com/) y para poder realizar tal acción, se explotó una vulnerabilidad llamada Server Side Request Forgery.
