@@ -59,7 +59,7 @@ typeIcon = "🎯"
 #myname = ""
 #email = ""
 #whoami = ""
-bioImageUrl = "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1508857756593-8QE1SHGI2SBQLCEA5E2Q/couple-has-space-lion-from-cowboy-bebop-performed-at-their-wedding-social.jpg?format=1500w&content-type=image%2Fjpeg"
+bioImageUrl = ""
 useGravatar = false
 location = "In the desert, you can remember your name..."
 #organization = "Hugo"
@@ -67,7 +67,7 @@ location = "In the desert, you can remember your name..."
 
 # sidebar
 enableBio = true
-enableBioImage = true
+enableBioImage = false
 enableSidebar = true
 enableSidebarTags = true
 enableSidebarSeries = true
@@ -159,8 +159,8 @@ commento = false
 [socialOptions]
   email = ""
   phone = ""
-  facebook = "https://facebook.com/desert.bunker"
-  twitter = "https://twitter.com/desertbunker243456433"
+  facebook = ""
+  twitter = "https://twitter.com/_c0wb0y_"
   github = ""
   stack-overflow = ""
   instagram = ""
