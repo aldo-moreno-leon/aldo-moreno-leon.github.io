@@ -9,7 +9,7 @@ categories:
 tags:
 - phishing
 author: "C0wb0y" # author name
-authorImageUrl: "https://i.postimg.cc/L6kw16fM/justice.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
+authorImageUrl: "https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/desert-bunker/justice.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
 authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/_c0wb0y_"
@@ -47,27 +47,27 @@ apt-get install httrack
 
 Ejecutamos la herramienta y nos muestra la presentación con dos opciones para crear el phishing que se mostrará a la víctima. En este caso elegimos la primera opción:
 
-{{< img src="https://i.postimg.cc/Hx6qQCpY/1.png" caption="1.- Portada de SayCheese y las opciones de phishing." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/1.png" caption="1.- Portada de SayCheese y las opciones de phishing." position="center" >}}
 
 Luego nos muestra que sitio web queremos utilizar como phishing, nosotros utilizaremos el que está por default de Snapchat, tan solo dar enter se selecciona:
 
-{{< img src="https://i.postimg.cc/pL8M37BC/2.png" caption="2.- Selección de website para phishing." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/2.png" caption="2.- Selección de website para phishing." position="center" >}}
 
 Ahora ngrok comienza a generar el link malicioso, si SayCheese no detecta ngrok, lo descarga automáticamente y se genera el link el cual debe ser abierto en el navegador de la víctima:
 
-{{< img src="https://i.postimg.cc/hG1Wtd67/3.png" caption="3.- Ngrok genera el link malicioso." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/3.png" caption="3.- Ngrok genera el link malicioso." position="center" >}}
 
 En el navegador del dispositivo objetivo, ya sea un móvil u ordenador, se abre el link malicioso y se muestra la página de snapchat y la solicitud de permisos:
 
-{{< img src="https://i.postimg.cc/VsVyv1G4/4.png" caption="4.- Página de snapchat y solicitud de permiso." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/4.png" caption="4.- Página de snapchat y solicitud de permiso." position="center" >}}
 
 Al momento de que la víctima abra el link malicioso, SayCheese te muestra que el link ha sido abierto y una vez que se acepta la solicitud de permiso, la cámara del dispositivo comienza a tomar fotografías y guardarlas en la carpeta images:
 
-{{< img src="https://i.postimg.cc/Jh2gn5K0/9.png" caption="5.- Víctima abre el link y acepta el permiso." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/5.png" caption="5.- Víctima abre el link y acepta el permiso." position="center" >}}
 
 Y aquí se muestran las fotografías capturadas en la carpeta images:
 
-{{< img src="https://i.postimg.cc/HxWGcL1v/8.png" caption="6.- Fotografías almacenadas en images." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/6.png" caption="6.- Fotografías almacenadas en images." position="center" >}}
 
 ## Conclusión
 
