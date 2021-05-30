@@ -10,7 +10,7 @@ tags:
 - phishing
 author: "C0wb0y" # author name
 authorImageUrl: "https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/desert-bunker/justice.jpg" # your image url. We use `authorImageUrl` first. If not set, we use `authorImage`.
-authorDesc: "Me apasiona el hacking. Soy una persona extremadamente curiosa. Leer libros, ver películas y series son solo algunos de tantos hobbies que tengo." # author description
+authorDesc: "Me apasiona el hacking pero soy un eterno n00b. Soy una persona extremadamente curiosa. Leer libros, ver películas y series, son solo algunos de tantos hobbies que disfruto hacer." # author description
 socialOptions: # override params.toml file socialOptions
   twitter: "https://twitter.com/_c0wb0y_"
   github: "https://github.com/aldo-moreno-leon"
