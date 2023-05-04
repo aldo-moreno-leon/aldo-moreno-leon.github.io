@@ -7,27 +7,27 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Desert Bunker</title>
-    <link>https://st4rleon.github.io/tags/</link>
+    <link>https://aldo-moreno-leon.github.io/tags/</link>
     <description>Recent content in Tags on Desert Bunker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 12 Apr 2021 06:40:51 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://st4rleon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://aldo-moreno-leon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>Lectura</title>
-        <link>https://st4rleon.github.io/tags/lectura/</link>
-        <pubDate>Mon, 12 Apr 2021 06:40:51 +0900</pubDate>
+        <title>phishing</title>
+        <link>https://aldo-moreno-leon.github.io/tags/phishing/</link>
+        <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
         
         
-        <guid>https://st4rleon.github.io/tags/lectura/</guid>
+        <guid>https://aldo-moreno-leon.github.io/tags/phishing/</guid>
         <description></description>
         
-        <dc:creator>Space Lions</dc:creator>
+        
         
         
         
@@ -37,15 +37,33 @@
       </item>
       
       <item>
-        <title>index</title>
-        <link>https://st4rleon.github.io/tags/index/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <title>bugbounty</title>
+        <link>https://aldo-moreno-leon.github.io/tags/bugbounty/</link>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
         
         
-        <guid>https://st4rleon.github.io/tags/index/</guid>
+        <guid>https://aldo-moreno-leon.github.io/tags/bugbounty/</guid>
         <description></description>
         
-        <dc:creator>Space Lions</dc:creator>
+        
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>SSRF</title>
+        <link>https://aldo-moreno-leon.github.io/tags/ssrf/</link>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://aldo-moreno-leon.github.io/tags/ssrf/</guid>
+        <description></description>
+        
+        
         
         
         
