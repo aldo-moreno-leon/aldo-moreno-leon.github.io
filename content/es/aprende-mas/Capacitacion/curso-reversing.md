@@ -1,5 +1,5 @@
 ---
-title: "CursoReversing" # apperared on a card component
+title: "Curso Reversing" # apperared on a card component
 date: 2020-01-24
 description: Curso de reversing desde cero en español # apperared on a card component
 weight: 1 # card ordering
