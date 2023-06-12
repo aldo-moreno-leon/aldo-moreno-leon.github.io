@@ -201,6 +201,8 @@ commento = false
   username = ""
 [[share]]
   name = "twitter"
+[[share]]
+  name = "linkedin"
 
 [[footerLinks]]
   name = ""
