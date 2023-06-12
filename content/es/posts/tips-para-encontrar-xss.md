@@ -43,7 +43,7 @@ site:*.yahoo.com inurl:id=
 ```
 Se pueden hacer tantas variaciones como se quiera, es cuestión de agregarle un poco de imaginación y saber como está desarrollado el sitio.
 
-{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/tips-para-encontrar-xss/1.PNG" caption="1.- Utilizando Google dorks." position="center" >}}
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/tips-para-encontrar-xss/0.PNG" caption="1.- Utilizando Google dorks." position="center" >}}
 
 ## Wayback Machine
 Otra herramienta sumamente útil para encontrar puntos de inyección ocultos o dificiles de encontrar es Waybackmachine.
