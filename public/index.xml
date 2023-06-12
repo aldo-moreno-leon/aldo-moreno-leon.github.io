@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://desert-bunker.net/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,6 +24,24 @@
         
       
 
+      
+      <item>
+        <title>PentesterLab</title>
+        <link>https://desert-bunker.net/aprende-mas/capacitacion/pentesterlab/</link>
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Mon, 12 Jun 2023 00:00:00 +0000</atom:modified>
+        <guid>https://desert-bunker.net/aprende-mas/capacitacion/pentesterlab/</guid>
+        <description></description>
+        
+        
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Malware Unicorn</title>

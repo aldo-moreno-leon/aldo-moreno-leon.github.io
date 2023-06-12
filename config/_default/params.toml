@@ -201,7 +201,7 @@ commento = false
   username = ""
 [[share]]
   name = "twitter"
-  via = "_c0wb0y_"
+  username = "_c0wb0y_"
 [[share]]
   name = "linkedin"
 
