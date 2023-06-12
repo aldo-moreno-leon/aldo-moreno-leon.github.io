@@ -1,5 +1,5 @@
 ---
-title: "Tips para encontrar XSS"
+title: "Tips para encontrar vulnerabilidades XSS"
 date: 2023-06-11
 description: Como encontrar vulnerabilidades de Cross-Site Scripting.
 draft: false
