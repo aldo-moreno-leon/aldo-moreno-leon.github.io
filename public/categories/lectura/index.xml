@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Lectura on Desert Bunker</title>
-    <link>https://aldo-moreno-leon.github.io/categories/lectura/</link>
+    <link>https://desert-bunker.net/categories/lectura/</link>
     <description>Recent content in Lectura on Desert Bunker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://aldo-moreno-leon.github.io/categories/lectura/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://desert-bunker.net/categories/lectura/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Desert Bunker</title>
-        <link>https://aldo-moreno-leon.github.io/2021/04/desert-bunker/</link>
+        <link>https://desert-bunker.net/2021/04/desert-bunker/</link>
         <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
         
         <atom:modified>Mon, 12 Apr 2021 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/2021/04/desert-bunker/</guid>
+        <guid>https://desert-bunker.net/2021/04/desert-bunker/</guid>
         <description>Desert Bunker es el nombre que decidimos ponerle a este pequeño blog que se utilizará como un espacio para generar conocimientos y por supuesto compartirlos.
 La idea comenzó como una manera de dejar plasmado los conocimientos que tenemos mi compañero NoSoyHacker404 y un servidor C0wb0y. Al mismo tiempo que depositamos nuestros aprendizajes en el blog, también estarán a la consulta de cualquier persona que sea lo suficientemente curiosa como para leer sobre tecnología y hacking.</description>
         

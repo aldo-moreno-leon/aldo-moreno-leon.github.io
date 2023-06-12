@@ -7,14 +7,14 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Archivo del blog on Desert Bunker</title>
-    <link>https://aldo-moreno-leon.github.io/archivo/</link>
+    <link>https://desert-bunker.net/archivo/</link>
     <description>Recent content in Archivo del blog on Desert Bunker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 19 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://aldo-moreno-leon.github.io/archivo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://desert-bunker.net/archivo/index.xml" rel="self" type="application/rss+xml" />
     
 
       

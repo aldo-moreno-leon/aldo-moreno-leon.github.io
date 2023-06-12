@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Capacitación on Desert Bunker</title>
-    <link>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/</link>
+    <link>https://desert-bunker.net/aprende-mas/capacitacion/</link>
     <description>Recent content in Capacitación on Desert Bunker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://desert-bunker.net/aprende-mas/capacitacion/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Malware Unicorn</title>
-        <link>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/malwareunicorn/</link>
+        <link>https://desert-bunker.net/aprende-mas/capacitacion/malwareunicorn/</link>
         <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
         
         <atom:modified>Sun, 14 Nov 2021 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/malwareunicorn/</guid>
+        <guid>https://desert-bunker.net/aprende-mas/capacitacion/malwareunicorn/</guid>
         <description></description>
         
         
@@ -38,11 +38,11 @@
       
       <item>
         <title>Backtrack Academy</title>
-        <link>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/backtrack-academy/</link>
+        <link>https://desert-bunker.net/aprende-mas/capacitacion/backtrack-academy/</link>
         <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
         
         <atom:modified>Wed, 29 Apr 2020 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/backtrack-academy/</guid>
+        <guid>https://desert-bunker.net/aprende-mas/capacitacion/backtrack-academy/</guid>
         <description></description>
         
         
@@ -55,12 +55,12 @@
       </item>
       
       <item>
-        <title>CursoReversing</title>
-        <link>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/curso-reversing/</link>
+        <title>Curso Reversing</title>
+        <link>https://desert-bunker.net/aprende-mas/capacitacion/curso-reversing/</link>
         <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
         
         <atom:modified>Fri, 24 Jan 2020 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/curso-reversing/</guid>
+        <guid>https://desert-bunker.net/aprende-mas/capacitacion/curso-reversing/</guid>
         <description></description>
         
         
@@ -74,11 +74,11 @@
       
       <item>
         <title>Portswigger Academy</title>
-        <link>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/portswigger-academy/</link>
+        <link>https://desert-bunker.net/aprende-mas/capacitacion/portswigger-academy/</link>
         <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
         
         <atom:modified>Sun, 19 Jan 2020 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/aprende-mas/capacitacion/portswigger-academy/</guid>
+        <guid>https://desert-bunker.net/aprende-mas/capacitacion/portswigger-academy/</guid>
         <description></description>
         
         

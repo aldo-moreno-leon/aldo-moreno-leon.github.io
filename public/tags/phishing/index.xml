@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>phishing on Desert Bunker</title>
-    <link>https://aldo-moreno-leon.github.io/tags/phishing/</link>
+    <link>https://desert-bunker.net/tags/phishing/</link>
     <description>Recent content in phishing on Desert Bunker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://aldo-moreno-leon.github.io/tags/phishing/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://desert-bunker.net/tags/phishing/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>SayCheese: captura fotografías de un dispositivo remotamente</title>
-        <link>https://aldo-moreno-leon.github.io/2021/05/saycheese-captura-fotograf%C3%ADas-de-un-dispositivo-remotamente/</link>
+        <link>https://desert-bunker.net/2021/05/saycheese-captura-fotograf%C3%ADas-de-un-dispositivo-remotamente/</link>
         <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
         
         <atom:modified>Sat, 01 May 2021 00:00:00 +0000</atom:modified>
-        <guid>https://aldo-moreno-leon.github.io/2021/05/saycheese-captura-fotograf%C3%ADas-de-un-dispositivo-remotamente/</guid>
+        <guid>https://desert-bunker.net/2021/05/saycheese-captura-fotograf%C3%ADas-de-un-dispositivo-remotamente/</guid>
         <description>¿Qué es SayCheese? SayCheese es una herramienta que captura fotografías de un dispositivo de manera remota, ya sean dispositivos móviles u ordenadores, logrando el cometido por un link generado con ngrok y enviado a la víctima.
 ¿Como funciona? La herramienta utiliza Ngrok mediante el método Port-Forwarding para generar el link malicioso el cual se envía a la víctima. Una vez la víctima abre el link en su navegador, se le solicitará permisos para utilizar la cámara para lo cual utiliza la función MediaDevices.</description>
         

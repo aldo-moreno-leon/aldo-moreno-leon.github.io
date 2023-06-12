@@ -43,7 +43,7 @@ site:*.yahoo.com inurl:id=
 ```
 Se pueden hacer tantas variaciones como se quiera, es cuestión de agregarle un poco de imaginación y saber como está desarrollado el sitio.
 
-[![1.png](https://i.postimg.cc/bwLxX6tY/1.png)](https://postimg.cc/yDggcyj2)
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/tips-para-encontrar-xss/1.PNG" caption="1.- Utilizando Google dorks." position="center" >}}
 
 ## Wayback Machine
 Otra herramienta sumamente útil para encontrar puntos de inyección ocultos o dificiles de encontrar es Waybackmachine.
@@ -52,7 +52,7 @@ Lo único que se debe hacer es usar una URL elaborada de manera que arroje los r
 http://web.archive.org/cdx/search/cdx?url=yahoo.com/*&output=text&fl=original&collapse=urlkey&from=
 ```
 De esta manera arroja tantos resultados como estén registrados en Waybackmachine. La tarea siguiente sería filtrar con el buscador del navegador.
-[![2.png](https://i.postimg.cc/JhnbRbNN/2.png)](https://postimg.cc/MnCcDfrH)
+{{< img src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/tips-para-encontrar-xss/2.PNG" caption="2.- Resultados de Waybackmachine." position="center" >}}
 
 ## Parámetros ocultos
 Esta sugerencia es un plus en este post y el cual me ha servido en múltiples ocasiones para encontrar parámetros ocultos.
