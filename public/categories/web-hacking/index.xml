@@ -19,12 +19,12 @@
 
       
       <item>
-        <title>Tips para encontrar XSS</title>
-        <link>https://desert-bunker.net/2023/06/tips-para-encontrar-xss/</link>
+        <title>Tips para encontrar vulnerabilidades XSS</title>
+        <link>https://desert-bunker.net/2023/06/tips-para-encontrar-vulnerabilidades-xss/</link>
         <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
         
         <atom:modified>Sun, 11 Jun 2023 00:00:00 +0000</atom:modified>
-        <guid>https://desert-bunker.net/2023/06/tips-para-encontrar-xss/</guid>
+        <guid>https://desert-bunker.net/2023/06/tips-para-encontrar-vulnerabilidades-xss/</guid>
         <description>&lt;p&gt;Ya dos años desde que subí un post en el blog, vuelvo a reactivarlo para compartir algunos conocimientos que pueden ser útiles.&lt;br /&gt;
 No entraré en detalles de lo que es un Cross-Site Scripting ni tampoco en payloads, aquí voy a mostrar mi manera de como expandir un poco mi área de búsqueda de XSS.&lt;/p&gt;</description>
         
