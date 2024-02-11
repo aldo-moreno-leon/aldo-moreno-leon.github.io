@@ -89,7 +89,7 @@ Documental sobre una operación de ciberterrorismo diseñada por los servicios d
 
 ### 10. Hacker, todo crimen tiene un inicio (2016)
 Alex Danyliuk, un joven inmigrante de Ucrania, llega a Canadá y se involucra con una organización criminal online. Poco a poco se va convirtiendo en un adolescente hacker, aprendiendo a estafar tarjetas de crédito, cajeros automáticos, entrar en los bancos y, finalmente, el mercado de valores. Lo que comienza como una manera de ayudar a sus padres económicamente, pronto se convierte en una venganza personal contra todo el sistema bancario cuando su madre es despedida de su trabajo en el banco.
-{{< img class="responsivo" src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/peliculas-y-series-sobre-hacking/10.webp" >}}
+{{< img class="responsivo" src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/peliculas-y-series-sobre-hacking/10.jpg" >}}
 
 ### 11. 23, nada es lo que parece (1998)
 Historia real sobre unos jóvenes hackers alemanes. Hannover, finales de los años ochenta. El huérfano Karl Koch invierte su herencia en un ordenador personal. Al principio lo usa para captar noticias sobre discusiones de teorías conspirativas inspiradas en su novela favorita, "Illuminatus", de R.A. Wilson, pero pronto Karl y su amigo David empiezan a introducirse en ordenadores del gobierno y del ejército.
@@ -128,7 +128,7 @@ Thriller cibernético en el que varios agentes norteamericanos y chinos, con ayu
 
 ### 2. Silicon Valley (2014-2019)
 6 temporadas. 53 episodios. Richard es un tímido programador que vive en el vivero del hostal Hacker con sus tres únicos amigos. A cambio de no cobrarles alquiler, el dueño del vivero se queda un diez por ciento de los beneficios que los amigos obtienen con sus inventos. Como buena ficción ambientada en una de las cunas de la creación de proyectos, los amigos descubren un importante algoritmo que supondrá una sucia batalla con intereses y falsas amistades de por medio. Además, una chica se cruza por primera vez en la vida de Richard.
-{{< img class="responsivo" src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/peliculas-y-series-sobre-hacking/20.jpg" >}}
+{{< img class="responsivo" src="https://raw.githubusercontent.com/aldo-moreno-leon/aldo-moreno-leon.github.io/main/public/images/post-images/peliculas-y-series-sobre-hacking/20.jpeg" >}}
 
 ### 3. Como vender drogas online (2019-)
 3 temporadas. 18 episodios. Un adolescente empieza a vender drogas por Internet para impresionar a su exnovia y se convierte en uno de los mayores traficantes de droga de Europa.
