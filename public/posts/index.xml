@@ -12,11 +12,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://desert-bunker.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Películas y series sobre hacking</title>
+        <link>https://desert-bunker.net/2024/02/pel%C3%ADculas-y-series-sobre-hacking/</link>
+        <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 10 Feb 2024 00:00:00 +0000</atom:modified>
+        <guid>https://desert-bunker.net/2024/02/pel%C3%ADculas-y-series-sobre-hacking/</guid>
+        <description>Hoy comparto una lista de películas y series para pasar el rato mientras descansamos el cerebro de tanto estudiar.
+No hay que ver las películas o series esperando ser un curso de hacking, es meramente entretenimiento. Y para aclarar, esta lista no lleva un orden en específico, simplemente está numerada.
+Películas: 1. Algorithm Un hacker informático independiente descubre un misterioso programa informático del gobierno. Él irrumpe en el programa y empuja a una revolución.</description>
+        
+        <dc:creator>C0wb0y</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Entretenimiento</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Tips para encontrar vulnerabilidades XSS</title>
