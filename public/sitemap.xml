@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://desert-bunker.net/aprende-mas/capacitacion/apisec-university/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://desert-bunker.net/aprende-mas/capacitacion/tcm-security-academy/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://desert-bunker.net/aprende-mas/capacitacion/pentesterlab/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,7 +45,7 @@
     <lastmod>2020-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://desert-bunker.net/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://desert-bunker.net/categories/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
