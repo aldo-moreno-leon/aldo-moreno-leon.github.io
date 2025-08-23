@@ -1,0 +1,51 @@
+[params]
+title = "José Aldo Moreno León"
+author = "Aldo Moreno"
+description = "QA Tester y Bug Bounty Hunter"
+profilePicture = "images/perfil.jpg"
+favicon = "favicons/"
+disableArchiveTitleStyling  = true
+readMore = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/jose-aldo-moreno-leon/"
+
+[[params.socialIcons]]
+icon = "fab fa-square-x-twitter"
+title = "X"
+url = "https://x.com/_C0wb0y_"
+
+[[params.socialIcons]]
+icon = "fab fa-square-github"
+title = "Github"
+url = "https://github.com/aldo-moreno-leon"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:aldo.moreno.leon@protonmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "Inicio"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Archivo"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
