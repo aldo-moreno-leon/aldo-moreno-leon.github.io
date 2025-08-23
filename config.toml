@@ -7,8 +7,6 @@ profilePicture = "images/perfil.jpg"
 favicon = "favicons/"
 disableArchiveTitleStyling  = true
 readMore = true
-relativeURLs = true
-canonifyURLs = true
 
 [markup]
   [markup.goldmark]
