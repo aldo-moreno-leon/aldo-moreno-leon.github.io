@@ -51,4 +51,4 @@ url = "mailto:aldo.moreno.leon@protonmail.com"
   name = "Archivo"
   weight = 200
   identifier = "posts"
-  url = "/posts/"
+  url = "/post/"
