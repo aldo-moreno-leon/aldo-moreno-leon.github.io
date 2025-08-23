@@ -3,7 +3,6 @@ demo/
 .hugo/*
 !.hugo/version
 .hugo_build.lock
-/public
 /node_modules
 .DS_Store
 hugo.exe
