@@ -1,0 +1,477 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    Aldo Moreno
+        |
+        Tips para encontrar vulnerabilidades XSS
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.148.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Aldo Moreno" />
+  <meta
+    name="description"
+    content="Como encontrar vulnerabilidades de Cross-Site Scripting."
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.css" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.10cb17328b3207590ce3d89fb482e7cd6937d8138cef2059c69cabd65ab7d6c6.css"
+    integrity="sha256-EMsXMosyB1kM49iftILnzWk32BOM7yBZxpyr1lq31sY="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.7aa4d559d5fadcfed666b5679be54d0dbbcf6a0542742319765b253d2797cc44.css"
+    integrity="sha256-eqTVWdX63P7WZrVnm&#43;VNDbvPagVCdCMZdlslPSeXzEQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a699c3ab02229020e2d51dfe6c9a4cc556fd7781edbc166e2af9d0db9d5c66ce.css"
+    integrity="sha256-ppnDqwIikCDi1R3&#43;bJpMxVb9d4HtvBZuKvnQ251cZs4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.1d88b60c86c4bb253fa4d4c085d27f7ee1f6eca544f7b50b227a2e63fbcfbaaa.css"
+    integrity="sha256-HYi2DIbEuyU/pNTAhdJ/fuH27KVE97ULInouY/vPuqo="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="//localhost:1313/post/tips-para-encontrar-xss/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tips para encontrar vulnerabilidades XSS">
+  <meta name="twitter:description" content="Como encontrar vulnerabilidades de Cross-Site Scripting.">
+
+
+
+  
+  <meta property="og:url" content="//localhost:1313/post/tips-para-encontrar-xss/">
+  <meta property="og:site_name" content="José Aldo Moreno León">
+  <meta property="og:title" content="Tips para encontrar vulnerabilidades XSS">
+  <meta property="og:description" content="Como encontrar vulnerabilidades de Cross-Site Scripting.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2023-06-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-06-11T00:00:00+00:00">
+    <meta property="article:tag" content="XSS">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Tips para encontrar vulnerabilidades XSS",
+        "headline": "Tips para encontrar vulnerabilidades XSS",
+        "alternativeHeadline": "",
+        "description": "
+      Como encontrar vulnerabilidades de Cross-Site Scripting.
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/\/localhost:1313\/post\/tips-para-encontrar-xss\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Aldo Moreno"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Aldo Moreno"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Aldo Moreno"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Aldo Moreno"
+        },
+        "dateCreated": "2023-06-11T00:00:00.00Z",
+        "datePublished": "2023-06-11T00:00:00.00Z",
+        "dateModified": "2023-06-11T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Aldo Moreno",
+            "url": "//localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/\/localhost:1313\/post\/tips-para-encontrar-xss\/",
+        "wordCount" : "572",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "XSS"
+
+    ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/perfil.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="//localhost:1313/">José Aldo Moreno León</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>QA Tester y Bug Bounty Hunter</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/jose-aldo-moreno-leon/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://x.com/_C0wb0y_"
+            target="_blank"
+            rel="noopener me"
+            aria-label="X"
+            title="X"
+          >
+            <i class="fab fa-square-x-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/aldo-moreno-leon"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Github"
+            title="Github"
+          >
+            <i class="fab fa-square-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:aldo.moreno.leon@protonmail.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Aldo Moreno
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Inicio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Archivo</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Tips Para Encontrar Vulnerabilidades XSS</h1>
+      
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Sun, Jun 11, 2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">3-minute read</span>
+          </li>
+        </ul>
+      <p>Ya dos años desde que subí un post en el blog, vuelvo a reactivarlo para compartir algunos conocimientos que pueden ser útiles.
+No entraré en detalles de lo que es un Cross-Site Scripting ni tampoco en payloads, aquí voy a mostrar mi manera de como expandir un poco mi área de búsqueda de XSS.</p>
+<hr>
+<h3 id="conocer-el-sitio">Conocer el sitio</h3>
+<p>Lo primero que realizo al comenzar mi caza de XSS es conocer el sitio al que se está testeando. Esto es saber donde hay entradas de datos como buscadores de productos, de posts, de FAQ, cualquier buscador que se encuentre. Al igual que si hay campos para agregar comentarios, reseñas, notas, títulos, entre otros datos de entrada. Es bueno observar siempre la dirección URL para ver que parámetros se muestran y si es posible inyectar payloads ahí.</p>
+<p>Un punto importante es saber como un usuario interactúa con el sitio web, que modelo de negocio maneja, así se puede dar una idea de los puntos de inyección que puede haber. Quizá existan formularios que se envíen al soporte del sitio y ahí conviene inyectar payloads de Blind XSS. O quizá sea un comercio en el que cada producto tenga una sección de comentarios donde es evidente el punto de inyección para explotar Stored XSS.
+Un tip que sirve para conocer mejor el sitio web es utilizar la extensión de navegadores Wappalyzer, el cual nos sirve para saber que lenguajes y tecnologías utiliza el sitio. Nos será útil con los métodos que mostraré más adelante.</p>
+<p>Ese es el primer paso para comenzar mi búsqueda, siempre analizo bien el lugar que voy a testear.</p>
+<h3 id="google-dorking">Google dorking</h3>
+<p>El buscador de google es una gran herramienta para encontrar puntos de inyección que están ocultos o se nos pasan por completo al navegar por el sitio.
+Es muy fácil, te mostraré las que utilizo normalmente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>site:*.yahoo.com ext:php
+</span></span><span style="display:flex;"><span>site:*.yahoo.com inurl:php -www
+</span></span><span style="display:flex;"><span>site:*.yahoo.com ext:asp
+</span></span><span style="display:flex;"><span>site:*.yahoo.com inurl:aspx
+</span></span><span style="display:flex;"><span>site:*.yahoo.com inurl:jsp
+</span></span><span style="display:flex;"><span>site:*.yahoo.com inurl:cat=
+</span></span><span style="display:flex;"><span>site:*.yahoo.com inurl:id=</span></span></code></pre></div>
+<p>Se pueden hacer tantas variaciones como se quiera, es cuestión de agregarle un poco de imaginación y saber como está desarrollado el sitio.</p>
+<figure><img src="/images/tips-para-encontrar-xss/1.png"
+    alt="image">
+</figure>
+
+<h2 id="wayback-machine">Wayback Machine</h2>
+<p>Otra herramienta sumamente útil para encontrar puntos de inyección ocultos o dificiles de encontrar es Waybackmachine.
+Lo único que se debe hacer es usar una URL elaborada de manera que arroje los resultados deseados.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>http://web.archive.org/cdx/search/cdx?url=yahoo.com/*&amp;output=text&amp;fl=original&amp;collapse=urlkey&amp;from=</span></span></code></pre></div>
+<p>De esta manera arroja tantos resultados como estén registrados en Waybackmachine. La tarea siguiente sería filtrar con el buscador del navegador.</p>
+<figure><img src="/images/tips-para-encontrar-xss/2.png"
+    alt="image">
+</figure>
+
+<h2 id="parámetros-ocultos">Parámetros ocultos</h2>
+<p>Esta sugerencia es un plus en este post y el cual me ha servido en múltiples ocasiones para encontrar parámetros ocultos.
+Cuando navego por un sitio web y veo páginas con extensión de PHP, JSP, ASP, ASPX, etc. procedo a juguetear con los parámetros de la URI ya sea los que se manejan visualmente en la página o los que descubro utilizando una herramienta para detectar parámetros utilizados por esa misma página.</p>
+<p>Arjun es una herramienta desarrollada por Somdev Sangwan que te permite saber si hay parámetros utilizables ya sean del tipo GET, POST, JSON y XML.</p>
+<ul>
+<li>Arjun: <a href="https://github.com/s0md3v/Arjun">https://github.com/s0md3v/Arjun</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arjun -u https://api.example.com/endpoint -m GET</span></span></code></pre></div>
+<h3 id="conclusión">Conclusión</h3>
+<p>Esta es la manera en que me dirijo para buscar vulnerabilidades XSS, probablemente existan otros métodos que funcionen con más eficacia e incluso haya algunos más que se me han pasado pero el objetivo es mostrar lo que me ha sido útil y que puede funcionarles a ustedes también.</p>
+<div style="margin-bottom: 50px;"></div>
+<blockquote>
+<p>“Si ayudas en la red, los demás también te ayudarán.”<br>
+— <cite>Johan Manuel Mendez</cite></p></blockquote></div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/xss/">XSS</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Aldo Moreno
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
