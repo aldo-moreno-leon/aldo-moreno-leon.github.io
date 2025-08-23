@@ -19,14 +19,14 @@ readMore = true
     tag = "tags"
 
 [[params.socialIcons]]
-icon = "fa-brands fa-linkedin"
+icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/jose-aldo-moreno-leon/"
 
 [[params.socialIcons]]
 icon = "fab fa-square-x-twitter"
 title = "X"
-url = "https://x.com/_C0wb0y_"
+url = "https://x.com/aldo_m_leon"
 
 [[params.socialIcons]]
 icon = "fab fa-square-github"
