@@ -1,6 +1,6 @@
 [params]
 baseURL = "https://aldo-moreno-leon.github.io/"
-title = "José Aldo Moreno León"
+title = "Aldo Moreno"
 author = "Aldo Moreno"
 description = "QA Tester y Bug Bounty Hunter"
 profilePicture = "images/perfil.jpg"
@@ -19,22 +19,22 @@ readMore = true
     tag = "tags"
 
 [[params.socialIcons]]
-icon = "fab fa-linkedin"
+icon = "fa-brands fa-linkedin-in"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/jose-aldo-moreno-leon/"
 
 [[params.socialIcons]]
-icon = "fab fa-square-x-twitter"
+icon = "fa-brands fa-x-twitter"
 title = "X"
 url = "https://x.com/aldo_m_leon"
 
 [[params.socialIcons]]
-icon = "fab fa-square-github"
+icon = "fa-brands fa-github"
 title = "Github"
 url = "https://github.com/aldo-moreno-leon"
 
 [[params.socialIcons]]
-icon = "fas fa-envelope"
+icon = "fa-solid fa-envelope"
 title = "e-mail"
 url = "mailto:aldo.moreno.leon@protonmail.com"
 
