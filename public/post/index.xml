@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>/post/</link>
+    <link>//localhost:1313/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Películas y series sobre hacking</title>
-      <link>/post/peliculas-y-series-sobre-hacking/</link>
+      <link>//localhost:1313/post/peliculas-y-series-sobre-hacking/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/post/peliculas-y-series-sobre-hacking/</guid>
+      <guid>//localhost:1313/post/peliculas-y-series-sobre-hacking/</guid>
       
         <description>Películas y series sobre hacking o temas relacionados.</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Tips para encontrar vulnerabilidades XSS</title>
-      <link>/post/tips-para-encontrar-xss/</link>
+      <link>//localhost:1313/post/tips-para-encontrar-xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>/post/tips-para-encontrar-xss/</guid>
+      <guid>//localhost:1313/post/tips-para-encontrar-xss/</guid>
       
         <description>Como encontrar vulnerabilidades de Cross-Site Scripting.</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>SayCheese: captura fotografías de un dispositivo remotamente</title>
-      <link>/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
+      <link>//localhost:1313/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
+      <guid>//localhost:1313/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
       
         <description>Una herramienta que es capaz de capturar fotografías utilizando la cámara de manera remota.</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>SSRF: leyendo archivos locales del servidor de Downnotifier</title>
-      <link>/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
+      <link>//localhost:1313/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
+      <guid>//localhost:1313/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
       
         <description>Write-up sobre una vulnerabilidad en el sitio web Downnotifier</description>
       
