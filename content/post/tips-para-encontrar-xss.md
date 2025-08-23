@@ -40,7 +40,7 @@ site:*.yahoo.com inurl:id=
 
 Se pueden hacer tantas variaciones como se quiera, es cuestión de agregarle un poco de imaginación y saber como está desarrollado el sitio.
 
-{{< figure src="/images/tips-para-encontrar-xss/1.png" alt="image" >}}
+{{< figure src="/images/tips-para-encontrar-xss/1.PNG" alt="image" >}}
 
 ## Wayback Machine
 Otra herramienta sumamente útil para encontrar puntos de inyección ocultos o dificiles de encontrar es Waybackmachine.
@@ -54,7 +54,7 @@ http://web.archive.org/cdx/search/cdx?url=yahoo.com/*&output=text&fl=original&co
 
 De esta manera arroja tantos resultados como estén registrados en Waybackmachine. La tarea siguiente sería filtrar con el buscador del navegador.
 
-{{< figure src="/images/tips-para-encontrar-xss/2.png" alt="image" >}}
+{{< figure src="/images/tips-para-encontrar-xss/2.PNG" alt="image" >}}
 
 ## Parámetros ocultos
 Esta sugerencia es un plus en este post y el cual me ha servido en múltiples ocasiones para encontrar parámetros ocultos.
