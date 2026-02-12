@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Aldo Moreno</title>
+    <link>/en/post/</link>
+    <description>Recent content in Posts on Aldo Moreno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movies and TV series about hacking</title>
+      <link>/en/post/peliculas-y-series-sobre-hacking/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/peliculas-y-series-sobre-hacking/</guid>
+      
+        <description>Movies and series about hacking or related topics.</description>
+      
+    </item>
+    
+    <item>
+      <title>Tips for finding XSS vulnerabilities</title>
+      <link>/en/post/tips-para-encontrar-xss/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/tips-para-encontrar-xss/</guid>
+      
+        <description>How to find Cross-Site Scripting vulnerabilities.</description>
+      
+    </item>
+    
+    <item>
+      <title>SayCheese: Capture photos remotely from a device</title>
+      <link>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
+      
+        <description>A tool that is capable of capturing photographs using the camera remotely.</description>
+      
+    </item>
+    
+    <item>
+      <title>SSRF: Reading local files from the Downnotifier server</title>
+      <link>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
+      
+        <description>Write-up about a vulnerability on the Downnotifier website</description>
+      
+    </item>
+    
+  </channel>
+</rss>
