@@ -1,6 +1,6 @@
 +++
 author = "Aldo Moreno"
-title = "SayCheese: captura fotografías de un dispositivo remotamente"
+title = "SayCheese: Captura fotografías remotamente desde un dispositivo"
 date = "2021-05-01"
 description = "Una herramienta que es capaz de capturar fotografías utilizando la cámara de manera remota."
 tags = [

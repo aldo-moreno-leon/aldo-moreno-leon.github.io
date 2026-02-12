@@ -1,6 +1,6 @@
 +++
 author = "Aldo Moreno"
-title = "SSRF: leyendo archivos locales del servidor de Downnotifier"
+title = "SSRF: Leyendo archivos locales del servidor de Downnotifier"
 date = "2021-04-24"
 description = "Write-up sobre una vulnerabilidad en el sitio web Downnotifier"
 tags = [

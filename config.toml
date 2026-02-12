@@ -1,12 +1,69 @@
-[params]
-baseURL = "https://www.aldomoreno.net//"
-title = "Aldo Moreno"
-author = "Aldo Moreno"
-description = "QA Tester y Bug Bounty Hunter"
-profilePicture = "images/perfil.jpg"
-favicon = "favicons/"
-disableArchiveTitleStyling  = true
-readMore = true
+# Configuración global
+defaultContentLanguage = 'es'
+
+[languages]
+  # --- Configuración para Español ---
+  [languages.es]
+    languageName = 'ES'
+    weight = 1
+    title = "Aldo Moreno"
+
+    [languages.es.params]
+      baseURL = "https://www.aldomoreno.net//"
+      title = "Aldo Moreno"
+      author = "Aldo Moreno"
+      description = "QA Specialist y Bug Bounty Hunter"
+      profilePicture = "images/perfil.jpg"
+      favicon = "favicons/"
+      disableArchiveTitleStyling  = true
+      readMore = true
+
+    # Menú en Español
+    [[languages.es.menu.main]]
+      name = "Inicio"
+      identifier = "home"
+      url = "/"
+      weight = 100
+    [[languages.es.menu.main]]
+      name = "Archivo"
+      url = "/posts/"
+      weight = 200
+    [[languages.es.menu.main]]
+      name = "Logros"
+      url = "/awards/"
+      weight = 300
+
+# --- Configuración para Inglés ---
+  [languages.en]
+    languageName = 'EN'
+    weight = 2
+    title = "Aldo Moreno"
+
+    [languages.en.params]
+      baseURL = "https://www.aldomoreno.net//"
+      title = "Aldo Moreno"
+      author = "Aldo Moreno"
+      description = "QA Specialist and Bug Bounty Hunter"
+      profilePicture = "images/perfil.jpg"
+      favicon = "favicons/"
+      disableArchiveTitleStyling  = true
+      readMore = true
+
+    # Menú en Inglés
+    [[languages.en.menu.main]]
+      name = "Home"
+      identifier = "home"
+      url = "/en/"
+      weight = 100
+    [[languages.en.menu.main]]
+      name = "Archive"
+      url = "/en/posts/"
+      weight = 200
+    [[languages.en.menu.main]]
+      name = "Achievements"
+      url = "/en/awards/"
+      weight = 300
+
 
 [markup]
   [markup.goldmark]
@@ -37,16 +94,3 @@ url = "https://github.com/aldo-moreno-leon"
 icon = "fa-solid fa-envelope"
 title = "e-mail"
 url = "mailto:aldo.moreno.leon@protonmail.com"
-
-[menu]
-  [[menu.main]]
-  name = "Inicio"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "Archivo"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
