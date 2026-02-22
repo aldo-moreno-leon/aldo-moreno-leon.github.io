@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aldo Moreno</title>
-    <link>//localhost:1313/en/tags/</link>
+    <link>/en/tags/</link>
     <description>Recent content in Tags on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hacking</title>
-      <link>//localhost:1313/en/tags/hacking/</link>
+      <link>/en/tags/hacking/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/hacking/</guid>
+      <guid>/en/tags/hacking/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Index</title>
-      <link>//localhost:1313/en/tags/index/</link>
+      <link>/en/tags/index/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/index/</guid>
+      <guid>/en/tags/index/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Tools</title>
-      <link>//localhost:1313/en/tags/tools/</link>
+      <link>/en/tags/tools/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/tools/</guid>
+      <guid>/en/tags/tools/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Entertainment</title>
-      <link>//localhost:1313/en/tags/entertainment/</link>
+      <link>/en/tags/entertainment/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/entertainment/</guid>
+      <guid>/en/tags/entertainment/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>XSS</title>
-      <link>//localhost:1313/en/tags/xss/</link>
+      <link>/en/tags/xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/xss/</guid>
+      <guid>/en/tags/xss/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Bug Bounty</title>
-      <link>//localhost:1313/en/tags/bug-bounty/</link>
+      <link>/en/tags/bug-bounty/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/tags/bug-bounty/</guid>
+      <guid>/en/tags/bug-bounty/</guid>
       
         <description></description>
       

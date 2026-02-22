@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XSS on Aldo Moreno</title>
-    <link>//localhost:1313/en/tags/xss/</link>
+    <link>/en/tags/xss/</link>
     <description>Recent content in XSS on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/tags/xss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/xss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips for finding XSS vulnerabilities</title>
-      <link>//localhost:1313/en/post/tips-para-encontrar-xss/</link>
+      <link>/en/post/tips-para-encontrar-xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/tips-para-encontrar-xss/</guid>
+      <guid>/en/post/tips-para-encontrar-xss/</guid>
       
         <description>How to find Cross-Site Scripting vulnerabilities.</description>
       

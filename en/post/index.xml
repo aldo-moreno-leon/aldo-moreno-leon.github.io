@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aldo Moreno</title>
-    <link>//localhost:1313/en/post/</link>
+    <link>/en/post/</link>
     <description>Recent content in Posts on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steganography: definition, techniques and uses.</title>
-      <link>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</link>
+      <link>/en/post/esteganografia-definicion-tecnicas-usos/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</guid>
+      <guid>/en/post/esteganografia-definicion-tecnicas-usos/</guid>
       
         <description>Post about steganography.</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Movies and TV series about hacking</title>
-      <link>//localhost:1313/en/post/peliculas-y-series-sobre-hacking/</link>
+      <link>/en/post/peliculas-y-series-sobre-hacking/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/peliculas-y-series-sobre-hacking/</guid>
+      <guid>/en/post/peliculas-y-series-sobre-hacking/</guid>
       
         <description>Movies and series about hacking or related topics.</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Tips for finding XSS vulnerabilities</title>
-      <link>//localhost:1313/en/post/tips-para-encontrar-xss/</link>
+      <link>/en/post/tips-para-encontrar-xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/tips-para-encontrar-xss/</guid>
+      <guid>/en/post/tips-para-encontrar-xss/</guid>
       
         <description>How to find Cross-Site Scripting vulnerabilities.</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>SayCheese: Capture photos remotely from a device</title>
-      <link>//localhost:1313/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
+      <link>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
+      <guid>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
       
         <description>A tool that is capable of capturing photographs using the camera remotely.</description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>SSRF: Reading local files from the Downnotifier server</title>
-      <link>//localhost:1313/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
+      <link>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
+      <guid>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
       
         <description>Write-up about a vulnerability on the Downnotifier website</description>
       

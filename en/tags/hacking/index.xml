@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking on Aldo Moreno</title>
-    <link>//localhost:1313/en/tags/hacking/</link>
+    <link>/en/tags/hacking/</link>
     <description>Recent content in Hacking on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steganography: definition, techniques and uses.</title>
-      <link>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</link>
+      <link>/en/post/esteganografia-definicion-tecnicas-usos/</link>
       <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</guid>
+      <guid>/en/post/esteganografia-definicion-tecnicas-usos/</guid>
       
         <description>Post about steganography.</description>
       

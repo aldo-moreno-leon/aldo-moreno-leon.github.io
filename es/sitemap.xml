@@ -2,221 +2,221 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/"
+                href="/"
                 />
   </url><url>
-    <loc>//localhost:1313/post/esteganografia-definicion-tecnicas-usos/</loc>
+    <loc>/post/esteganografia-definicion-tecnicas-usos/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/"
+                href="/en/post/esteganografia-definicion-tecnicas-usos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/esteganografia-definicion-tecnicas-usos/"
+                href="/post/esteganografia-definicion-tecnicas-usos/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/hacking/</loc>
+    <loc>/tags/hacking/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/tags/hacking/"
+                href="/en/tags/hacking/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/tags/hacking/"
+                href="/tags/hacking/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/herramientas/</loc>
+    <loc>/tags/herramientas/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/index/</loc>
-    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/en/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/tags/index/"
-                />
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/tags/index/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/"
+                href="/en/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/"
+                href="/tags/index/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/post/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/tags/"
+                href="/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/tags/"
+                href="/post/"
                 />
   </url><url>
-    <loc>//localhost:1313/awards/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/awards/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/awards/"
+                href="/en/awards/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/awards/"
+                href="/awards/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/entretenimiento/</loc>
+    <loc>/tags/entretenimiento/</loc>
     <lastmod>2024-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/peliculas-y-series-sobre-hacking/</loc>
+    <loc>/post/peliculas-y-series-sobre-hacking/</loc>
     <lastmod>2024-02-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/peliculas-y-series-sobre-hacking/"
+                href="/en/post/peliculas-y-series-sobre-hacking/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/peliculas-y-series-sobre-hacking/"
+                href="/post/peliculas-y-series-sobre-hacking/"
                 />
   </url><url>
-    <loc>//localhost:1313/post/tips-para-encontrar-xss/</loc>
+    <loc>/post/tips-para-encontrar-xss/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/tips-para-encontrar-xss/"
+                href="/en/post/tips-para-encontrar-xss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/tips-para-encontrar-xss/"
+                href="/post/tips-para-encontrar-xss/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/xss/</loc>
+    <loc>/tags/xss/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/tags/xss/"
+                href="/en/tags/xss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/tags/xss/"
+                href="/tags/xss/"
                 />
   </url><url>
-    <loc>//localhost:1313/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</loc>
+    <loc>/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/"
+                href="/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/"
+                href="/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/bug-bounty/</loc>
+    <loc>/tags/bug-bounty/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/tags/bug-bounty/"
+                href="/en/tags/bug-bounty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/tags/bug-bounty/"
+                href="/tags/bug-bounty/"
                 />
   </url><url>
-    <loc>//localhost:1313/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</loc>
+    <loc>/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/"
+                href="/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/"
+                href="/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/"
                 />
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/archives/"
+                href="/en/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/archives/"
+                href="/archives/"
                 />
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/en/series/"
+                href="/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:1313/series/"
+                href="/series/"
                 />
   </url>
 </urlset>
