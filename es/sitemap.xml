@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,74 @@
                 rel="alternate"
                 hreflang="es"
                 href="//localhost:1313/"
+                />
+  </url><url>
+    <loc>//localhost:1313/post/esteganografia-definicion-tecnicas-usos/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/post/esteganografia-definicion-tecnicas-usos/"
+                />
+  </url><url>
+    <loc>//localhost:1313/tags/hacking/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/en/tags/hacking/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/tags/hacking/"
+                />
+  </url><url>
+    <loc>//localhost:1313/tags/herramientas/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/index/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/en/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/tags/index/"
+                />
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/post/"
+                />
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/awards/</loc>
@@ -31,19 +99,6 @@
     <loc>//localhost:1313/tags/entretenimiento/</loc>
     <lastmod>2024-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/index/</loc>
-    <lastmod>2024-02-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/en/tags/index/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/tags/index/"
-                />
-  </url><url>
     <loc>//localhost:1313/post/peliculas-y-series-sobre-hacking/</loc>
     <lastmod>2024-02-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -55,32 +110,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="//localhost:1313/post/peliculas-y-series-sobre-hacking/"
-                />
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
-    <lastmod>2024-02-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/post/"
-                />
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-02-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="//localhost:1313/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/post/tips-para-encontrar-xss/</loc>
@@ -108,9 +137,6 @@
                 hreflang="es"
                 href="//localhost:1313/tags/xss/"
                 />
-  </url><url>
-    <loc>//localhost:1313/tags/herramientas/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>

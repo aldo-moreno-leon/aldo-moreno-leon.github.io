@@ -6,7 +6,40 @@
     <description>Recent content in Tags on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking</title>
+      <link>//localhost:1313/en/tags/hacking/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/hacking/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      <link>//localhost:1313/en/tags/index/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/index/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>//localhost:1313/en/tags/tools/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/tags/tools/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>Entertainment</title>
       <link>//localhost:1313/en/tags/entertainment/</link>
@@ -19,33 +52,11 @@
     </item>
     
     <item>
-      <title>Index</title>
-      <link>//localhost:1313/en/tags/index/</link>
-      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/en/tags/index/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>XSS</title>
       <link>//localhost:1313/en/tags/xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/en/tags/xss/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>//localhost:1313/en/tags/tools/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/en/tags/tools/</guid>
       
         <description></description>
       
