@@ -18,7 +18,7 @@ No entraré en detalles de lo que es un Cross-Site Scripting ni tampoco en paylo
 Lo primero que realizo al comenzar mi caza de XSS es conocer el sitio al que se está testeando. Esto es saber donde hay entradas de datos como buscadores de productos, de posts, de FAQ, cualquier buscador que se encuentre. Al igual que si hay campos para agregar comentarios, reseñas, notas, títulos, entre otros datos de entrada. Es bueno observar siempre la dirección URL para ver que parámetros se muestran y si es posible inyectar payloads ahí.
 
 Un punto importante es saber como un usuario interactúa con el sitio web, que modelo de negocio maneja, así se puede dar una idea de los puntos de inyección que puede haber. Quizá existan formularios que se envíen al soporte del sitio y ahí conviene inyectar payloads de Blind XSS. O quizá sea un comercio en el que cada producto tenga una sección de comentarios donde es evidente el punto de inyección para explotar Stored XSS.
-Un tip que sirve para conocer mejor el sitio web es utilizar la extensión de navegadores Wappalyzer, el cual nos sirve para saber que lenguajes y tecnologías utiliza el sitio. Nos será útil con los métodos que mostraré más adelante.
+Un tip que sirve para conocer mejor el sitio web es utilizar la extensión de navegadores Wappalyzer, el cual nos sirve para saber que lenguajes y tecnologías utiliza el sitio.
 
 Ese es el primer paso para comenzar mi búsqueda, siempre analizo bien el lugar que voy a testear.
 

@@ -17,7 +17,7 @@ I won't go into detail about Cross-Site Scripting (XSS) or payloads; instead, I'
 The first thing I do when I start hunting for XSS attacks is to familiarize myself with the website being tested. This means identifying data entry points such as product search engines, post search engines, FAQs—any search engine I can find. I also check for fields for adding comments, reviews, notes, titles, and other input data. It's always a good idea to examine the URL to see what parameters are displayed and whether it's possible to inject payloads there.
 
 An important point is understanding how a user interacts with the website and what business model it uses, as this can provide an idea of ​​potential attack vectors. For example, there might be forms that are submitted to the site's support team, making it a good idea to inject Blind XSS payloads there. Or perhaps it's a store where each product has a comments section, creating an obvious point of attack for exploiting Stored XSS.
-One tip for getting to know a website better is to use the Wappalyzer browser extension, which tells us what languages ​​and technologies the site uses. This will be useful with the methods I'll show later.
+One tip for getting to know a website better is to use the Wappalyzer browser extension, which tells us what languages ​​and technologies the site uses.
 
 That's the first step in my search; I always thoroughly analyze the site I'm going to test.
 

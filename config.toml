@@ -94,3 +94,8 @@ url = "https://github.com/aldo-moreno-leon"
 icon = "fa-solid fa-envelope"
 title = "e-mail"
 url = "mailto:aldo.moreno.leon@protonmail.com"
+
+[[params.socialIcons]]
+icon = "fa-solid fa-b"
+title = "Bugcrowd"
+url = "https://bugcrowd.com/h/aldo_m_leon"
