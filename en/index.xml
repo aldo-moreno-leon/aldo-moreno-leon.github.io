@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aldo Moreno</title>
-    <link>/en/</link>
+    <link>//localhost:1313/en/</link>
     <description>Recent content on Aldo Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steganography: definition, techniques and uses.</title>
+      <link>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/en/post/esteganografia-definicion-tecnicas-usos/</guid>
+      
+        <description>Post about steganography.</description>
+      
+    </item>
+    
     <item>
       <title>Achievements</title>
-      <link>/en/awards/</link>
+      <link>//localhost:1313/en/awards/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>/en/awards/</guid>
+      <guid>//localhost:1313/en/awards/</guid>
       
         <description>Certifications and awards list.</description>
       
@@ -20,10 +31,10 @@
     
     <item>
       <title>Movies and TV series about hacking</title>
-      <link>/en/post/peliculas-y-series-sobre-hacking/</link>
+      <link>//localhost:1313/en/post/peliculas-y-series-sobre-hacking/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/peliculas-y-series-sobre-hacking/</guid>
+      <guid>//localhost:1313/en/post/peliculas-y-series-sobre-hacking/</guid>
       
         <description>Movies and series about hacking or related topics.</description>
       
@@ -31,10 +42,10 @@
     
     <item>
       <title>Tips for finding XSS vulnerabilities</title>
-      <link>/en/post/tips-para-encontrar-xss/</link>
+      <link>//localhost:1313/en/post/tips-para-encontrar-xss/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/tips-para-encontrar-xss/</guid>
+      <guid>//localhost:1313/en/post/tips-para-encontrar-xss/</guid>
       
         <description>How to find Cross-Site Scripting vulnerabilities.</description>
       
@@ -42,10 +53,10 @@
     
     <item>
       <title>SayCheese: Capture photos remotely from a device</title>
-      <link>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
+      <link>//localhost:1313/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
+      <guid>//localhost:1313/en/post/saycheese-captura-fotografias-de-un-dispositivo-remotamente/</guid>
       
         <description>A tool that is capable of capturing photographs using the camera remotely.</description>
       
@@ -53,10 +64,10 @@
     
     <item>
       <title>SSRF: Reading local files from the Downnotifier server</title>
-      <link>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
+      <link>//localhost:1313/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
+      <guid>//localhost:1313/en/post/ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier/</guid>
       
         <description>Write-up about a vulnerability on the Downnotifier website</description>
       
@@ -64,10 +75,10 @@
     
     <item>
       <title></title>
-      <link>/en/archives/</link>
+      <link>//localhost:1313/en/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/en/archives/</guid>
+      <guid>//localhost:1313/en/archives/</guid>
       
         <description></description>
       
