@@ -64,6 +64,8 @@ Y la respuesta fue...
 
 Reporté la vulnerabilidad SSRF al soporte de DownNotifier y ellos arreglaron el fallo muy rápido.
 
+**Bounty:** $50 USD
+
 Quiero agradecer al soporte de DownNotifier porque ellos fueron muy amables en nuestra comunicación y me permitieron publicar este write-up. También quiero agradecer al bug bounty hunter quien escribió el write-up en el cual utilizó la técnica de redirección con la cabezera Location.
 
 - Write-up: [https://medium.com/@elberandre/1-000-ssrf-in-slack-7737935d3884](https://medium.com/@elberandre/1-000-ssrf-in-slack-7737935d3884)
