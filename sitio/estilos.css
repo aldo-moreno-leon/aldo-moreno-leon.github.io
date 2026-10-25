@@ -20,6 +20,7 @@
   --sombra: 0 10px 30px rgba(0, 0, 0, .5);
   --radio: 6px;
   --ancho-menu: 290px;
+  --ancho-contenido: 1240px;
   --mono: "JetBrains Mono", "Cascadia Code", Consolas, ui-monospace, monospace;
   --sans: Inter, system-ui, "Segoe UI", Roboto, sans-serif;
   color-scheme: dark;
@@ -194,7 +195,9 @@ a:hover { color: var(--verde); }
 /* ---------- Contenido ---------- */
 
 .principal { margin-left: var(--ancho-menu); min-height: 100vh; display: flex; flex-direction: column; }
-.contenido { flex: 1; width: 100%; max-width: 1060px; padding: 30px 44px 50px; }
+/* La columna de contenido se centra en el espacio que deja el menú; los posts usan una más angosta para leer cómodo. */
+body[data-vista="post"] { --ancho-contenido: 920px; }
+.contenido { flex: 1; width: 100%; max-width: var(--ancho-contenido); margin: 0 auto; padding: 30px 44px 50px; }
 
 .previo h1 { font: 700 1.9em/1.2 var(--mono); color: var(--brillante); }
 
@@ -202,8 +205,9 @@ a:hover { color: var(--verde); }
   display: flex;
   flex-wrap: wrap;
   gap: 6px 10px;
-  max-width: 1060px;
-  margin: 0 44px;
+  width: calc(100% - 88px);
+  max-width: calc(var(--ancho-contenido) - 88px);
+  margin: 0 auto;
   padding: 18px 0 26px;
   border-top: 1px dashed var(--borde-fuerte);
   font: 12px var(--mono);
@@ -420,9 +424,9 @@ a:hover { color: var(--verde); }
   background: rgba(255, 204, 102, .05);
 }
 
-.articulo { font-size: 16px; line-height: 1.75; max-width: 780px; }
+.articulo { font-size: 16px; line-height: 1.75; max-width: none; }
 
-.post-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 46px; max-width: 780px; }
+.post-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 46px; }
 .post-nav a {
   display: flex;
   flex-direction: column;
@@ -819,7 +823,7 @@ a:hover { color: var(--verde); }
   max-width: none;
 }
 
-.formulario { display: grid; gap: 18px; max-width: 900px; }
+.formulario { display: grid; gap: 18px; }
 .formulario fieldset { margin: 0; padding: 16px 18px 18px; border: 1px solid var(--borde); border-radius: 8px; background: var(--panel); min-width: 0; }
 .formulario legend { padding: 0 8px; font: 700 12px var(--mono); color: var(--verde); text-transform: uppercase; letter-spacing: .08em; }
 .formulario legend::before { content: "[ "; color: var(--sutil); }
@@ -952,7 +956,7 @@ a:hover { color: var(--verde); }
   .menu-abierto .menu { transform: none; }
   .principal { margin-left: 0; }
   .contenido { padding: 66px 16px 40px; }
-  .pie { margin: 0 16px; }
+  .pie { width: calc(100% - 32px); }
   .cabecera h1, .post-cabecera h1 { font-size: 1.5em; }
   .nombre { font-size: 1.8em; }
   .terminal-cuerpo { padding: 18px 16px 20px; }
