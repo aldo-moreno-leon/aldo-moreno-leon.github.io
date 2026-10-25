@@ -17,6 +17,7 @@ import binascii
 import json
 import re
 import shutil
+import socket
 import sys
 import threading
 import webbrowser
@@ -272,6 +273,17 @@ def guardar_imagen(datos):
 
 # ---------------- HTTP ----------------
 
+class Servidor(ThreadingHTTPServer):
+    # En Windows, SO_REUSEADDR deja que dos servidores escuchen en el mismo puerto y el
+    # navegador acaba hablando con el equivocado. Ahí se pide el puerto en exclusiva.
+    allow_reuse_address = sys.platform != "win32"
+
+    def server_bind(self):
+        if sys.platform == "win32":
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
+
+
 class Manejador(SimpleHTTPRequestHandler):
     hosts_permitidos = set()
 
@@ -380,7 +392,7 @@ def main():
     generar()
     Manejador.hosts_permitidos = {f"{h}:{args.puerto}" for h in ("127.0.0.1", "localhost")}
     try:
-        servidor = ThreadingHTTPServer(("127.0.0.1", args.puerto), Manejador)
+        servidor = Servidor(("127.0.0.1", args.puerto), Manejador)
     except OSError:
         sys.exit(f"El puerto {args.puerto} está ocupado. ¿Ya está abierto el editor? "
                  f"Prueba con: py servidor.py --puerto 8781")

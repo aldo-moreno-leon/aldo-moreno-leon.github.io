@@ -1,6 +1,42 @@
 {
   "proyectos": [
     {
+      "id": "wordlists-contest-discovery",
+      "titulo": {
+        "es": "Wordlists contest discovery",
+        "en": "Wordlists contest discovery"
+      },
+      "descripcion": {
+        "es": "Web content discovery wordlists",
+        "en": "Web content discovery wordlists"
+      },
+      "tecnologias": [],
+      "url": "",
+      "repo": "https://github.com/aldo-moreno-leon/Wordlists-content-discovery",
+      "imagen": "",
+      "fecha": "2026",
+      "estado": "archivado"
+    },
+    {
+      "id": "mis-apuntes",
+      "titulo": {
+        "es": "Mis apuntes",
+        "en": "My notes"
+      },
+      "descripcion": {
+        "es": "Espacio donde guardo todas mis notas para recordar pasos, comandos, etc.",
+        "en": "A space where I keep all my notes to remember steps, commands, etc."
+      },
+      "tecnologias": [
+        "With help of Claude: HTML/CSS/JS/Python"
+      ],
+      "url": "https://aldomoreno.net/mis-apuntes/",
+      "repo": "https://github.com/aldo-moreno-leon/mis-apuntes",
+      "imagen": "",
+      "fecha": "2026",
+      "estado": "activo"
+    },
+    {
       "id": "probabilidad-de-sorteos",
       "titulo": {
         "es": "Probabilidad de sorteos",
@@ -11,7 +47,7 @@
         "en": "Probabilities for Mexico’s national lottery draws: Sorteo Mayor, Sorteo Superior, and Tris Clásico."
       },
       "tecnologias": [
-        "With help of Claude: HTML/CSS/JS"
+        "With help of Claude: HTML/CSS/JS/Python"
       ],
       "url": "https://aldomoreno.net/Probabilidad-Sorteos/",
       "repo": "https://github.com/aldo-moreno-leon/Probabilidad-Sorteos",
