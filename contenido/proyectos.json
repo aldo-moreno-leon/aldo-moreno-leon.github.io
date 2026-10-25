@@ -1,0 +1,23 @@
+{
+  "proyectos": [
+    {
+      "id": "probabilidad-de-sorteos",
+      "titulo": {
+        "es": "Probabilidad de sorteos",
+        "en": "Probability in prize draws"
+      },
+      "descripcion": {
+        "es": "Probabilidad de los sorteos de loteria nacional de México: Sorteo Mayor, Sorteo Superior y Tris Clásico.",
+        "en": "Probabilities for Mexico’s national lottery draws: Sorteo Mayor, Sorteo Superior, and Tris Clásico."
+      },
+      "tecnologias": [
+        "With help of Claude: HTML/CSS/JS"
+      ],
+      "url": "https://aldomoreno.net/Probabilidad-Sorteos/",
+      "repo": "https://github.com/aldo-moreno-leon/Probabilidad-Sorteos",
+      "imagen": "",
+      "fecha": "2026",
+      "estado": "activo"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Aldo Moreno",
+  "usuario": "aldo_m_leon",
+  "foto": "/images/perfil.jpg",
+  "sitio": "https://aldomoreno.net",
+  "rol": {
+    "es": "QA Specialist y Bug Bounty Hunter",
+    "en": "QA Specialist and Bug Bounty Hunter"
+  },
+  "bio": {
+    "es": "Me dedico al aseguramiento de calidad de software y, en mis ratos libres, a buscar vulnerabilidades en programas de **bug bounty**. Desde 2018 he reportado fallas a organizaciones como la BBC y DELL.\n\nEn este blog comparto write-ups, herramientas y lo que voy aprendiendo en el camino.",
+    "en": "I work in software quality assurance and, in my spare time, hunt for vulnerabilities in **bug bounty** programs. Since 2018 I have reported issues to organizations such as the BBC and DELL.\n\nOn this blog I share write-ups, tools and what I learn along the way."
+  },
+  "habilidades": [
+    "QA",
+    "Bug Bounty",
+    "Web Security"
+  ],
+  "redes": [
+    {
+      "tipo": "linkedin",
+      "url": "https://www.linkedin.com/in/jose-aldo-moreno-leon/"
+    },
+    {
+      "tipo": "x",
+      "url": "https://x.com/aldo_m_leon"
+    },
+    {
+      "tipo": "github",
+      "url": "https://github.com/aldo-moreno-leon"
+    },
+    {
+      "tipo": "bugcrowd",
+      "url": "https://bugcrowd.com/h/aldo_m_leon"
+    },
+    {
+      "tipo": "hackerone",
+      "url": "https://hackerone.com/aldo_m_leon"
+    },
+    {
+      "tipo": "web",
+      "url": "https://cyber-profile.com/u/aldo-m-leon"
+    },
+    {
+      "tipo": "email",
+      "url": "mailto:aldo.moreno.leon@protonmail.com"
+    }
+  ]
+}

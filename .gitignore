@@ -1,9 +1,4 @@
-**/themes/
-demo/
-.hugo/*
-!.hugo/version
-.hugo_build.lock
-/node_modules
-.DS_Store
-/public
-hugo.exe
+.papelera/
+__pycache__/
+*.pyc
+.claude/

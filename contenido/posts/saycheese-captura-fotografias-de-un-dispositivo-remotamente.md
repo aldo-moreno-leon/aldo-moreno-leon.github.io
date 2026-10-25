@@ -1,0 +1,69 @@
+---
+titulo: SayCheese: Captura fotografías remotamente desde un dispositivo
+fecha: 2021-05-01
+descripcion: Una herramienta que es capaz de capturar fotografías utilizando la cámara de manera remota.
+etiquetas: Herramientas
+borrador: no
+---
+
+### ¿Qué es SayCheese?
+
+SayCheese es una herramienta que captura fotografías de un dispositivo de manera remota, ya sean dispositivos móviles u ordenadores, logrando el cometido por un link generado con ngrok y enviado a la víctima.
+
+### ¿Como funciona?
+
+La herramienta utiliza Ngrok mediante el método Port-Forwarding para generar el link malicioso el cual se envía a la víctima. Una vez la víctima abre el link en su navegador, se le solicitará permisos para utilizar la cámara para lo cual utiliza la función [MediaDevices.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia) incorporada en el código javascript del archivo index.php.
+
+Al aceptar los permisos, SayCheese comienza a obtener las fotografías y almacenarlas en la carpeta llamada images.
+
+### Instalación
+
+Para instalar SayCheese es muy simple, tan solo tienes que ejecutar en la terminal los siguientes comandos:
+
+```bash
+git clone https://github.com/Technicalheadquarter/saycheese
+cd saycheese
+chmod +x saycheese.sh
+./saycheese.sh
+```
+
+En el caso de que la herramienta solicite instalar httrack la cual es una dependencia para su funcionamiento, se ejecuta lo siguiente:
+
+```bash
+apt-get install httrack
+```
+
+## Usando SayCheese
+
+Ejecutamos la herramienta y nos muestra la presentación con dos opciones para crear el phishing que se mostrará a la víctima. En este caso elegimos la primera opción:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/1.png)
+
+Luego nos muestra que sitio web queremos utilizar como phishing, nosotros utilizaremos el que está por default de Snapchat, tan solo dar enter se selecciona:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/2.png)
+
+Ahora ngrok comienza a generar el link malicioso, si SayCheese no detecta ngrok, lo descarga automáticamente y se genera el link el cual debe ser abierto en el navegador de la víctima:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/3.png)
+
+En el navegador del dispositivo objetivo, ya sea un móvil u ordenador, se abre el link malicioso y se muestra la página de snapchat y la solicitud de permisos:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/4.png)
+
+Al momento de que la víctima abra el link malicioso, SayCheese te muestra que el link ha sido abierto y una vez que se acepta la solicitud de permiso, la cámara del dispositivo comienza a tomar fotografías y guardarlas en la carpeta images:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/5.png)
+
+Y aquí se muestran las fotografías capturadas en la carpeta images:
+
+![image](/images/saycheese-captura-fotografias-de-un-dispositivo-remotamente/6.png)
+
+### Conclusión
+
+SayCheese es una interesante herramienta con la cual jugar. Claro está que es un poco difícil que el objetivo caiga en la trampa debido al permiso de uso de la cámara, pero con creatividad nada es imposible. ;)
+
+<div style="margin-bottom: 50px;"></div>
+
+> "La tarea del hacker no es destruir, sino utilizar sus conocimientos en favor de la libertad y la igualdad social."<br>
+> — <cite>Johan Manuel Mendez</cite>

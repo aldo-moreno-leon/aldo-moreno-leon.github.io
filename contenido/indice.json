@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "slug": "inyeccion-de-sql-en-recuperacion-contrasena-babywinkel-info",
+      "fecha": "2026-04-05",
+      "es": {
+        "titulo": "Inyección de SQL en formulario de recuperación de contraseña (babywinkel-info.nl)",
+        "descripcion": "Reporte de bug bounty.",
+        "etiquetas": [
+          "Bug Bounty"
+        ]
+      },
+      "en": {
+        "titulo": "SQL injection in password recovery form (babywinkel-info.nl)",
+        "descripcion": "Bug Bounty report",
+        "etiquetas": [
+          "Bug Bounty"
+        ]
+      }
+    },
+    {
+      "slug": "peliculas-y-series-sobre-hacking",
+      "fecha": "2024-02-10",
+      "es": {
+        "titulo": "Películas y series sobre hacking",
+        "descripcion": "Películas y series sobre hacking o temas relacionados.",
+        "etiquetas": [
+          "Entretenimiento"
+        ]
+      },
+      "en": {
+        "titulo": "Movies and TV series about hacking",
+        "descripcion": "Movies and series about hacking or related topics.",
+        "etiquetas": [
+          "Entertainment"
+        ]
+      }
+    },
+    {
+      "slug": "tips-para-encontrar-xss",
+      "fecha": "2023-06-11",
+      "es": {
+        "titulo": "Tips para encontrar vulnerabilidades XSS",
+        "descripcion": "Como encontrar vulnerabilidades de Cross-Site Scripting.",
+        "etiquetas": [
+          "XSS"
+        ]
+      },
+      "en": {
+        "titulo": "Tips for finding XSS vulnerabilities",
+        "descripcion": "How to find Cross-Site Scripting vulnerabilities.",
+        "etiquetas": [
+          "XSS"
+        ]
+      }
+    },
+    {
+      "slug": "saycheese-captura-fotografias-de-un-dispositivo-remotamente",
+      "fecha": "2021-05-01",
+      "es": {
+        "titulo": "SayCheese: Captura fotografías remotamente desde un dispositivo",
+        "descripcion": "Una herramienta que es capaz de capturar fotografías utilizando la cámara de manera remota.",
+        "etiquetas": [
+          "Herramientas"
+        ]
+      },
+      "en": {
+        "titulo": "SayCheese: Capture photos remotely from a device",
+        "descripcion": "A tool that is capable of capturing photographs using the camera remotely.",
+        "etiquetas": [
+          "Tools"
+        ]
+      }
+    },
+    {
+      "slug": "ssrf-leyendo-archivos-locales-del-servidor-de-downnotifier",
+      "fecha": "2021-04-24",
+      "es": {
+        "titulo": "SSRF: Leyendo archivos locales del servidor de Downnotifier",
+        "descripcion": "Write-up sobre una vulnerabilidad en el sitio web Downnotifier",
+        "etiquetas": [
+          "Bug Bounty"
+        ]
+      },
+      "en": {
+        "titulo": "SSRF: Reading local files from the Downnotifier server",
+        "descripcion": "Write-up about a vulnerability on the Downnotifier website",
+        "etiquetas": [
+          "Bug Bounty"
+        ]
+      }
+    }
+  ]
+}
